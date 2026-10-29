@@ -8,6 +8,18 @@
    TODO 7: .knapp
 */
 
+:root {
+  --brown: #5b3a29;
+  --darkbrown: #2b1c14;
+  --red: #8c1010;
+  --dardred: #6f0c0c;
+  --text: #222222;
+  --rubrik: #3b2418;
+  --kort-bakgrund: #ffffff;
+  --kort-kant: #e3d5c3;
+  --hero-bakgrund: #f3e3cf;
+}
+
 /* Reset, nollställer alla inställningar och sätter
 box storleken till att inlkudera border och padding */
 *,
@@ -16,10 +28,41 @@ box storleken till att inlkudera border och padding */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body {
   background-color: #fffaf3;
   margin: 0;
+  color: var(--text);
+}
+
+h1 {
+  color: var(--kort-bakgrund);
+}
+
+h2,
+h3 {
+  color: var(--rubrik);
+}
+
+header,
+footer {
+  padding: 16px 24px;
+  color: var(--kort-bakgrund);
+}
+
+header {
+  /*color: var(--brown);*/
+  background-color: var(--brown);
+}
+
+footer {
+  /*color: var(--darkbrown);*/
+  background-color: var(--darkbrown);
+}
+
+header a,
+footer a {
+  color: var(--kort-bakgrund);
 }
