@@ -97,3 +97,15 @@ main {
   padding: 16px;
   text-align: center;
 }
+
+.knapp {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: var(--red);
+  color: var(--kort-bakgrund);
+  text-decoration: none;
+  border-radius: 6px;
+}
+.knapp:hover {
+  background-color: var(--dardred);
+}
