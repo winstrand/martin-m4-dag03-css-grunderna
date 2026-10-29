@@ -66,3 +66,7 @@ header a,
 footer a {
   color: var(--kort-bakgrund);
 }
+
+nav ul {
+  list-style-type: none;
+}
