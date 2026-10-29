@@ -46,6 +46,11 @@ h3 {
   color: var(--rubrik);
 }
 
+a {
+  color: var(--red);
+  text-decoration: none;
+}
+
 header,
 footer {
   padding: 16px 24px;
@@ -78,6 +83,25 @@ article {
   padding: 16px;
   margin-bottom: 16px;
 }
+
+/*
+
+┌─────────────┐
+│ ┌───────┐   │
+│ │ img   │   │
+│ └───────┘   │
+│  rubrik     │
+│             │
+│  besk       │
+│             │
+│  pris       │
+└─────────────┘
+avstånd mellan innehåll (rubrik, beskrivning och pris) och ytterkant är 16px.
+Avstånd mellan korten är 16px.
+Bilederna ska vara max 100% av kortets bredd och auto höjd.
+
+*/
+
 article img {
   max-width: 100%;
   height: auto;
@@ -108,4 +132,8 @@ main {
 }
 .knapp:hover {
   background-color: var(--dardred);
+}
+
+.pris {
+  color: var(--red);
 }
