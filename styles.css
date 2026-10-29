@@ -82,7 +82,11 @@ article {
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 16px;
-  box-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.1);
+  /*
+  box-shadow:
+    <offset-x> <offset-y> <blur-radius> <spread-radius> rgba(0, 0, 0, 0.1);
+  */
 }
 
 article:nth-child(even) {
