@@ -70,3 +70,17 @@ footer a {
 nav ul {
   list-style-type: none;
 }
+
+article {
+  background-color: var(--kort-bakgrund);
+  border: 1px solid var(--kort-kant);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+article img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 16px;
+}
