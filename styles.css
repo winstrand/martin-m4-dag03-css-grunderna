@@ -95,7 +95,7 @@ article:nth-child(even) {
 }
 
 /*
-
+Content (Kort):
 ┌─────────────┐
 │ ┌───────┐   │
 │ │ img   │   │
@@ -110,6 +110,26 @@ avstånd mellan innehåll (rubrik, beskrivning och pris) och ytterkant är 16px.
 Avstånd mellan korten är 16px.
 Bilederna ska vara max 100% av kortets bredd och auto höjd.
 
+Boxmodel:
+┌─────────────────────────────────────────┐
+│ margin                                  │
+│                 0                       │
+│      ┌──border─────│1│───────────┐      │
+│      │ padding                   │      │
+│      │           16              │      │
+│      │      ┌─────────────┐      │      │
+│      │      │  content    │      │      │
+│  0  │1│ 16  │   x * y     │ 16  │1│  0  │
+│      │      │             │      │      │
+│      │      └─────────────┘      │      │
+│      │           16              │      │
+│      │                           │      │
+│      └─────────────│1│───────────┘      │
+│                 0                       │
+│                                         │
+└─────────────────────────────────────────┘
+Units in px.
+x, y differs depending on wiewport size.
 */
 
 article img {
